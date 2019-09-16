@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: darkgray
+    background-image: url(../images/Donald\ Trump.jpeg)
 }
 
 .wrapper {
@@ -59,5 +59,12 @@ body {
     margin-top: 10px;
 }
 
+.chosen {
+    background-color: lightblue;
+}
+
+.done {
+    text-align: center;
+}
 
 
