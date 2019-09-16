@@ -1,0 +1,47 @@
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+body {
+    background-color: darkgray
+}
+
+.wrapper {
+    width: 80%;
+    background-color: lightgray;
+    margin: auto;
+    padding: 15px;
+    border: solid;
+    border-color: maroon;
+    border-width: 5px;
+    margin-top: 5vh;
+}
+
+.questionDiv {
+    width: 60%;
+    margin: auto;
+}
+
+.question {
+    border: solid;
+    border-color: maroon;
+    border-width: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.answer {
+    width: 40%;
+    margin: auto;
+}
+
+.true {
+    float: left;
+}
+
+.false {
+    float: right;
+}
+
