@@ -19,9 +19,17 @@ body {
     margin-top: 5vh;
 }
 
+.timer {
+    font-size: 20px;
+    margin: auto;
+    font-weight: bolder;
+    text-align: center;
+}
+
 .questionDiv {
     width: 60%;
     margin: auto;
+    margin-top: 30px;
 }
 
 .question {
@@ -44,4 +52,12 @@ body {
 .false {
     float: right;
 }
+
+.submit {
+    margin: auto;
+    width: 10%;
+    margin-top: 10px;
+}
+
+
 

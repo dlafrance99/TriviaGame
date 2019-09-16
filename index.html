@@ -24,6 +24,11 @@
             </h3>
         </div>
 
+        <div class="timer">
+            <span class="countdown"> 60 </span>
+        </div>
+
+
         <div class="questionDiv">
 
             <div class="question" id="questionOne">
@@ -34,10 +39,10 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
-                        True
+                    <button class="true" id="oneTrue" data-correct="true">
+                        <strong>True</strong>
                     </button>
-                    <button class="false">
+                    <button class="false" id="oneFalse">
                         False
                     </button>
                 </div>
@@ -48,10 +53,10 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
-                        True
+                    <button class="true" id="twoTrue" data-correct="true">
+                       <strong>True</strong> 
                     </button>
-                    <button class="false">
+                    <button class="false" id="twofalse">
                         False
                     </button>
                 </div>
@@ -62,10 +67,10 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
-                        True
+                    <button class="true" id="threeTrue" data-correct="true">
+                       <strong> True</strong>
                     </button>
-                    <button class="false">
+                    <button class="false" id="threeFalse">
                         False
                     </button>
                 </div>
@@ -76,11 +81,11 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
+                    <button class="true" id="fourTrue">
                         True
                     </button>
-                    <button class="false">
-                        False
+                    <button class="false" id="fourFalse" data-correct="true">
+                      <strong>  False</strong>
                     </button>
                 </div>
             </div>
@@ -90,11 +95,11 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
+                    <button class="true" id="fiveTrue">
                         True
                     </button>
-                    <button class="false">
-                        False
+                    <button class="false" id="fiveFalse" data-correct="true">
+                       <strong> False</strong>
                     </button>
                 </div>
             </div>
@@ -104,10 +109,10 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
-                        True
+                    <button class="true" id="sixTrue" data-correct="true">
+                       <strong> True </strong>
                     </button>
-                    <button class="false">
+                    <button class="false" id="sixFalse">
                         False
                     </button>
                 </div>
@@ -118,10 +123,10 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
-                        True
+                    <button class="true" id="sevenTrue" data-correct="true">
+                       <strong> True</strong>
                     </button>
-                    <button class="false">
+                    <button class="false" id="sevenFalse">
                         False
                     </button>
                 </div>
@@ -132,10 +137,10 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
-                        True
+                    <button class="true" id="eightTrue" data-correct="true">
+                      <strong>  True</strong>
                     </button>
-                    <button class="false">
+                    <button class="false" id="eightFalse">
                         False
                     </button>
                 </div>
@@ -146,11 +151,11 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
+                    <button class="true" id="nineTrue">
                         True
                     </button>
-                    <button class="false">
-                        False
+                    <button class="false" id="nineFalse" data-correct="true">
+                       <strong> False</strong>
                     </button>
                 </div>
             </div>
@@ -160,15 +165,21 @@
                 </p>
                 <br>
                 <div class="answer clearfix">
-                    <button class="true">
+                    <button class="true" id="tenTrue">
                         True
                     </button>
-                    <button class="false">
-                        False
+                    <button class="false" id="tenFalse" data-correct="true">
+                       <strong> False</strong>
                     </button>
                 </div>
             </div>
 
+        </div>
+
+        <div class="submit">
+            <button id="enter">
+                Submit
+            </button>
         </div>
 
     </div>
