@@ -1,70 +1,36 @@
-.clearfix::after {
-    clear: both;
-    content: "";
-    display: block;
-}
-
 body {
-    background-image: url(../images/Donald\ Trump.jpeg)
+    background-image: url(../images/Donald\ Trump.jpeg);
 }
 
 .wrapper {
-    width: 80%;
-    background-color: lightgray;
-    margin: auto;
-    padding: 15px;
-    border: solid;
-    border-color: maroon;
-    border-width: 5px;
-    margin-top: 5vh;
-}
-
-.timer {
-    font-size: 20px;
-    margin: auto;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.questionDiv {
-    width: 60%;
-    margin: auto;
-    margin-top: 30px;
-}
-
-.question {
+    background-color: darkgray;
     border: solid;
     border-color: maroon;
     border-width: 5px;
     margin: 10px;
+
+}
+
+#game {
+    background-color: gray;
+    border: solid;
+    border-color: maroon;
+    border-width: 5px;
+    margin: 10px;
+}
+
+#time {
+    background-color: gray;
+    border: solid;
+    border-color: maroon;
+    border-width: 5px;
+    margin: 10px;
+}
+
+.choice {
+    border: 1px solid lightgrey;
     padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
-.answer {
-    width: 40%;
-    margin: auto;
-}
-
-.true {
-    float: left;
-}
-
-.false {
-    float: right;
-}
-
-.submit {
-    margin: auto;
-    width: 10%;
-    margin-top: 10px;
-}
-
-.chosen {
-    background-color: lightblue;
-}
-
-.done {
-    text-align: center;
-}
-
 
