@@ -1,5 +1,13 @@
 body {
-    background-image: url(../images/Donald\ Trump.jpeg);
+    background-color: black;
+}
+
+.content {
+    width: 80%;
+    background-color: rgb(110, 110, 110);
+    margin: auto;
+    padding: 10px;
+    margin-top: 10%;
 }
 
 .wrapper {
@@ -8,7 +16,7 @@ body {
     border-color: maroon;
     border-width: 5px;
     margin: 10px;
-
+    text-align: center;
 }
 
 #game {
@@ -17,6 +25,7 @@ body {
     border-color: maroon;
     border-width: 5px;
     margin: 10px;
+    text-align: center;
 }
 
 #time {
@@ -25,6 +34,10 @@ body {
     border-color: maroon;
     border-width: 5px;
     margin: 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .choice {
@@ -32,5 +45,14 @@ body {
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+    text-align: center;
+    width: 100px;
+    margin: auto; 
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+img {
+    margin: 10px;
 }
 
